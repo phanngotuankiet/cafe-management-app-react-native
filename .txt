@@ -1,0 +1,95 @@
+1. Authentication & User Components:
+
+src/
+  components/
+    auth/
+      LoginForm.tsx
+      RegisterForm.tsx
+      ForgotPassword.tsx
+      UserProfile.tsx
+      StaffProfile.tsx
+      AdminDashboard.tsx
+
+2. Order Management:
+
+src/
+  components/
+    orders/
+      TableGrid.tsx        // Interactive table layout
+      QRCodeScanner.tsx    // For scanning table QR codes
+      OrderForm.tsx        // New order creation
+      OrderList.tsx        // List of active orders
+      OrderDetails.tsx     // Detailed view of an order
+      PaymentProcessor.tsx // Handle different payment methods
+      KitchenDisplay.tsx   // For kitchen staff to see orders
+
+3. Menu Management:
+
+src/
+  components/
+    menu/
+      CategoryList.tsx
+      ProductCard.tsx
+      ProductGrid.tsx
+      ProductDetails.tsx
+      SpecialOffers.tsx    // Daily/weekly specials
+      CustomizationModal.tsx // For drink customization
+      NutritionInfo.tsx    // Optional nutritional information
+
+4. Inventory & Supplier Components:
+
+src/
+  components/
+    inventory/
+      IngredientList.tsx
+      StockAlert.tsx       // Low stock notifications
+      SupplierList.tsx
+      PurchaseOrderForm.tsx
+      InventoryDashboard.tsx
+
+5. Customer Experience:
+
+src/
+  components/
+    customer/
+      LoyaltyCard.tsx     // Digital loyalty card
+      RewardsCatalog.tsx  // Available rewards
+      FeedbackForm.tsx    // Customer feedback
+      ReservationForm.tsx // Table reservations
+      WaitingList.tsx     // Queue management
+
+6. Analytics & Reporting:
+
+src/
+  components/
+    analytics/
+      SalesChart.tsx
+      RevenueReport.tsx
+      PopularItems.tsx
+      StaffPerformance.tsx
+      CustomerInsights.tsx
+
+7. Additional Innovative Components:
+
+src/
+  components/
+    features/
+      WeatherMenu.tsx      // Suggest drinks based on weather
+      HappyHourTimer.tsx   // Countdown for special offers
+      TableRecommender.tsx // AI-based table suggestions
+      StaffScheduler.tsx   // Staff rotation management
+      RecipeViewer.tsx     // For staff training
+      MoodBasedMenu.tsx    // Suggest drinks based on mood
+
+8. Mobile-Specific Components:
+
+src/
+  components/
+    mobile/
+      BottomNav.tsx
+      SwipeableMenu.tsx
+      PullToRefresh.tsx
+      OfflineNotice.tsx
+
+- AI-powered order suggestions based on customer history
+- Voice ordering capability
